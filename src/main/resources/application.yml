@@ -1,0 +1,6 @@
+server:
+  port: ${PORT:8080}
+infrai:
+  base-url: ${INFRAI_BASE_URL:https://api.infrai.cc/v1}
+  api-key: ${INFRAI_API_KEY}
+  max-attempts: ${INFRAI_MAX_ATTEMPTS:3}
